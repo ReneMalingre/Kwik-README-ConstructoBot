@@ -2,38 +2,31 @@
   {
     "licenseTitle": "MIT",
     "licenseBadge": "https://img.shields.io/badge/License-MIT-yellow.svg",
-    "licenseLink": "https://opensource.org/licenses/MIT",
-    "licenseSVG": "License-MIT-yellow.svg"
+    "licenseLink": "https://opensource.org/licenses/MIT"
   },
   {
     "licenseTitle": "Apache 2.0",
     "licenseBadge": "https://img.shields.io/badge/License-Apache_2.0-blue.svg",
-    "licenseLink": "https://opensource.org/licenses/Apache-2.0",
-    "licenseSVG": "License-Apache_2.0-blue.svg"
+    "licenseLink": "https://opensource.org/licenses/Apache-2.0"
   },
   {
     "licenseTitle": "GNU GPL v3",
     "licenseBadge": "https://img.shields.io/badge/License-GPLv3-blue.svg",
-    "licenseLink": "https://www.gnu.org/licenses/gpl-3.0",
-    "licenseSVG": "License-GPLv3-blue.svg"
+    "licenseLink": "https://www.gnu.org/licenses/gpl-3.0"
   },
   {
     "licenseTitle": "BSD 3-Clause",
     "licenseBadge": "https://img.shields.io/badge/License-BSD_3--Clause-blue.svg",
-    "licenseLink": "https://opensource.org/licenses/BSD-3-Clause",
-    "licenseSVG": "License-BSD_3--Clause-blue.svg"
+    "licenseLink": "https://opensource.org/licenses/BSD-3-Clause"
   },
   {
     "licenseTitle": "The Unlicense",
     "licenseBadge": "https://img.shields.io/badge/license-Unlicense-blue.svg",
-    "licenseLink": "http://unlicense.org/",
-    "licenseSVG": "license-Unlicense-blue.svg"
+    "licenseLink": "http://unlicense.org/"
   },
   {
     "licenseTitle": "GNU LGPL v3",
     "licenseBadge": "https://img.shields.io/badge/License-LGPL_v3-blue.svg",
-    "licenseLink": "https://www.gnu.org/licenses/lgpl-3.0",
-    "licenseSVG": "License-LGPL_v3-blue.svg"
+    "licenseLink": "https://www.gnu.org/licenses/lgpl-3.0"
   }
 ]
-

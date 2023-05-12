@@ -1,15 +1,15 @@
 {
-  "name": "static-site",
+  "name": "kwik-readme-constructobot",
   "version": "1.0.0",
-  "description": "[How to create a Professional README](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)",
+  "description": "[CLI App to Generate a Professional README.md file](https://github.com/ReneMalingre/Kwik-README-ConstructoBot",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Rene Malingre",
+  "license": "MIT",
   "dependencies": {
     "inquirer": "^8.2.4"
   },
-  "keywords": []
+  "keywords": ["CLI", "README"]
 }

@@ -1,10 +1,10 @@
-# Fish Fingers
-  
+# Fish Finger Frenzy
+
   [![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   
-  ## Description
+## Description
   
-  A recipe generator for fish fingers.
+fdjaf;d
 
 ## Table of Contents
   
@@ -24,12 +24,8 @@ npm i
 ```
   
 ## Usage
-  
-To use the application, run the following command in the terminal:
-  
-```bash
-It is an excellent way to do your meal planning.
-```
+
+just do it
   
 ## License
   
@@ -37,7 +33,7 @@ This repository is licensed under the [MIT](https://opensource.org/licenses/MIT)
   
 ## Contributing
   
-Please contribute suggestions and recipes.
+just do it
   
 ## Tests
   

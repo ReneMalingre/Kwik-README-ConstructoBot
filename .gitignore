@@ -1,23 +1,9 @@
 # Dependency directories
-node_modules
-
-# Logs
-logs/
-*.log
-
-# Runtime data
-pids/
-*.pid
-*.seed
-*.pid.lock
-
-# dotenv environment variables file
-.env
-.env.*
+node_modules/
 
 # Editor directories and files
 .vscode/
 
 # Operating System Files
-.DS_Store
+.DS_Store/
 Thumbs.db

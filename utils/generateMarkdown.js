@@ -1,6 +1,7 @@
 // Import the required module
 const fs = require('fs')
 
+// Path to the json file containing the license badge data
 const licensesFilePath = './data/license-badges.json'
 
 // Function that returns a license badge based on which license is passed in
@@ -37,13 +38,15 @@ function renderLicenseSection (license) {
   if (licenseLink === undefined || licenseLink === null || licenseLink === '') {
     return 'This repository is not licensed.'
   }
-  // return markdown stating that the repository is licensed under the license
+  // return markdown stating that the repository is licensed under the chosen license
   return `This repository is licensed under the [${license}](${licenseLink}) license.`
 }
 
 // Function to generate markdown for README
 function generateMarkdown (data) {
   // Create a template string for the README
+
+  // special formatting for commands
   const bash = '```bash'
   const endBash = '```'
 
@@ -71,12 +74,8 @@ ${data.installCommand.trim()}
 ${endBash}
   
 ## Usage
-  
-To use the application, run the following command in the terminal:
-  
-${bash}
+
 ${data.usage.trim()}
-${endBash}
   
 ## License
   
@@ -99,7 +98,7 @@ ${endBash}
 If you have any questions about the repository, open an issue or contact me directly at:
 [${data.emailAddress}](mailto:${data.emailAddress}).
   
-You can find more of my work at [GitHub](https://github.com/${data.gitHubUserName}).
+You can find more of my work at [GitHub](https://github.com/${encodeURI(data.gitHubUserName)}).
 `
   // return the template string
   return readmeTemplate
@@ -129,8 +128,7 @@ function getLicenseTitles () {
 
 // Search for a license by its title and return the licenseBadge
 function getLicenseDataFromTitle (licenseTitle) {
-// Read the JSON file
-  console.log(licensesFilePath)
+  // Read the JSON file
   // check that it exists
   if (!fs.existsSync(licensesFilePath)) {
     console.error('Error reading the file:', licensesFilePath, 'does not exist')
