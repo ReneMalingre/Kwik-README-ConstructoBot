@@ -14,8 +14,7 @@ node index.js
 
 ## Credits
 
-[How to create a Professional README](https://coding-boot-camp.github.io/
-full-stack/github/professional-readme-guide)
+[How to create a Professional README](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
 
 [Inquirer npm package](https://www.npmjs.com/package/inquirer)
 
