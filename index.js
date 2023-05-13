@@ -110,7 +110,7 @@ function writeToFile (data) {
   const fileName = './readme-file/README.md'
   try {
     fs.writeFileSync(fileName, markDown)
-    outputYellowText('The README.md has been saved in the readme-file folder.')
+    outputYellowText('Your new README.md file has been saved in the readme-file folder.')
   } catch (err) {
     console.error(err)
   }

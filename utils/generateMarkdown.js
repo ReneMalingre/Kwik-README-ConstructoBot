@@ -1,4 +1,4 @@
-// Import the required module
+// Import the required module to read the license data from a json file
 const fs = require('fs')
 
 // Path to the json file containing the license badge data
@@ -95,10 +95,10 @@ ${endBash}
   
 ## Questions
   
-If you have any questions about the repository, open an issue or contact me directly at:
+If you have any questions about the repository, open an issue or contact the author via:
 [${data.emailAddress}](mailto:${data.emailAddress}).
   
-You can find more of my work at [GitHub](https://github.com/${encodeURI(data.gitHubUserName)}).
+You can find more of the author's work at their [GitHub Repository](https://github.com/${encodeURI(data.gitHubUserName)}).
 `
   // return the template string
   return readmeTemplate
